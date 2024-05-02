@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools >= 57.0", "wheel" ]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-gen-ai-project"
+version = "0.0.0"
+description = "Project description"
+requires-python = ">=3.11"
+readme = "README.md"
+authors = [ { name = "John Doe", email = "johndoe@gmail.com"}]
+
+dependencies = [
+  "tomli"
+]
+
+[project.optional-dependencies]
+ci = ["black", "coverage", "pylint", "flake8"]
+cd = ["twine"]
+
+[project.scripts]
+my_first_script = "common.my_first_script:main"
+
+[tool.black]
+line-length = 79
+use-tabs = false
+tab-width = 2

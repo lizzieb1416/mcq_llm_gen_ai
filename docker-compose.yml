@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  python-toolkit:
+    image: foxonconsulting/langchain-toolkit:1.0.0
+    volumes:
+      - //var/run/docker.sock:/var/run/docker.sock
+      - ./:/llm-gen-ai-project
+    container_name: "llm-gen-ai-project-toolkit_cn"
+    restart: unless-stopped
+    command: bash -c "while true; do sleep 1; done"
