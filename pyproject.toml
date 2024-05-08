@@ -8,10 +8,15 @@ version = "0.0.0"
 description = "Project description"
 requires-python = ">=3.11"
 readme = "README.md"
-authors = [ { name = "John Doe", email = "johndoe@gmail.com"}]
+authors = [ { name = "Liset BASTIDAS GONZALEZ", email = "johndoe@gmail.com"}]
 
 dependencies = [
-  "tomli"
+  "tomli",
+  "openai", 
+  "langchain",
+  "streamlit",
+  "python-dotenv",
+  "PyPDF2"
 ]
 
 [project.optional-dependencies]

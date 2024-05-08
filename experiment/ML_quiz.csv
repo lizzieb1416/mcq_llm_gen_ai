@@ -1,0 +1,6 @@
+MCQ,Choices,Correct
+What is machine learning?,a: A field of study in artificial intelligence concerned with the development and study of statistical algorithms | b: A field of study in biology concerned with plant growth | c: A field of study in history concerned with ancient civilizations | d: A field of study in chemistry concerned with chemical reactions,a
+Which field does machine learning find applications in?,"a: Natural language processing, computer vision, and speech recognition | b: Cooking and baking | c: Fishing and hunting | d: Dancing and singing",a
+What is the mathematical foundation of machine learning?,a: Calculus | b: Algebra | c: Mathematical optimization (mathematical programming) methods | d: Geometry,c
+What is data mining focused on?,a: Exploratory data analysis (EDA) through supervised learning | b: Exploratory data analysis (EDA) through unsupervised learning | c: Exploratory data analysis (EDA) through reinforcement learning | d: Exploratory data analysis (EDA) through deep learning,b
+What framework provides a theoretical viewpoint for describing machine learning?,a: Probably approximately correct (PAC) learning | b: Definitely incorrect (DIC) learning | c: Absolutely accurate (AA) learning | d: Possibly perfect (PP) learning,a

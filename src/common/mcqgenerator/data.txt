@@ -1,0 +1,17 @@
+In recent years, the success achieved
+through neural machine translation has
+made it mainstream in machine translation
+systems. In this work, encoder-decoder
+with attention system based on ”Neural
+Machine Translation by Jointly Learning
+to Align and Translate” by Bahdanau et al.
+(2014) has been used to accomplish the
+Machine Translation between English and
+Spanish Language which has not seen
+much research work done as compared
+to other languages such as German and
+French. We aim to demonstrate the results similar to the breakthrough paper on
+which our work is based on. We achieved
+a BLEU score of 25.37, which was close
+enough to what Bahdanau et al. (2014)
+achieved in their work.
